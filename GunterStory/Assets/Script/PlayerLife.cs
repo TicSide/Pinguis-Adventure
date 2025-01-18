@@ -18,10 +18,10 @@ public class PlayerLife : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (processedColliders.Contains(collision))
-        {
-            return
-        }
+        //if (processedColliders.Contains(collision))
+        //{
+        //    return;
+        //}
         processedColliders.Add(collision);
 
         if (canTakeDamage)
